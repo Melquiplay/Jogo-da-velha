@@ -1,0 +1,57 @@
+*{
+margin: 0;
+}
+.jogo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.pa{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    font-size: 200px;
+    text-align: center;
+}
+.fi{
+    border: 5px solid black; 
+}
+.um{
+    border-top: none;
+    border-left: none;
+}
+.dois{
+    border-top: none;
+}
+.tres{
+    border-top: none;
+    border-right: none;
+}
+.quatro{
+    border-left: none;
+}
+.seis{
+    border-right: none;
+}
+.sete{
+    border-left: none;
+    border-bottom: none;
+}
+.oito{
+    border-bottom: none;
+}
+.nove{
+    border-bottom: none;
+    border-right: none;
+}
+
+.fi:hover{
+    background-color: rgb(216, 216, 216);
+}
+img{
+    position: absolute;
+    width: 100%;
+    right: 20px;
+    display: none;
+}
